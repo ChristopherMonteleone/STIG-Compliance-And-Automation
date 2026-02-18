@@ -3,7 +3,7 @@ Documented the remediation of 10 Windows Security Technical Implementation Guide
 
 ## High-Level Process
 
-The following workflow was executed for **10 specific Windows 10 STIG vulnerabilities**. This cycl (Audit, Remediate, Verify) was repeated for each finding to ensure a robust understanding of both manual system hardening and automated compliance.
+The following workflow was executed for **10 specific Windows 10 STIG vulnerabilities**. This cycle (Audit, Remediate, Verify) was repeated for each finding to ensure a robust understanding of both manual system hardening and automated compliance.
 
 ### 1. Baseline Auditing & Analysis
 * **Ingested Compliance Policies:** Loaded the **DISA Windows 10 STIG** benchmark into the **SCAP Compliance Checker**.
