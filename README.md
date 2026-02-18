@@ -18,7 +18,7 @@ The following workflow was executed for **10 specific Windows 10 STIG vulnerabil
 ### 3. Automation Development (Scripting Phase)
 * **Environment Reset:** Reverted the system configuration to its previous **non-compliant state** to prepare for automation testing.
 * **PowerShell Scripting:** Developed a custom PowerShell script for the finding.
-    * *Logic Implemented:* The scripts utilize "Idempotency"—checking the current registry value before attempting a change to avoid redundant operations.
+    * *Logic Implemented:* The scripts checks the current registry value before attempting a change to avoid redundant operations.
     * *Error Handling:* Included `Try/Catch` blocks to ensure robust execution.
 * **Script Execution:** Deployed the script (`.\Remediate_STIG-ID.ps1`) against the target environment.
 
